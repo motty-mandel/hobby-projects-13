@@ -1,0 +1,25 @@
+.about-me-container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.img-con img {
+    max-height: 350px;
+    max-width: 350px;
+    border: 3px solid white;
+}
+
+.bio-text h2 span {
+    color: black;
+    transition: ease-in-out 0.5s;
+}
+
+.bio-text h2 span:hover {
+    color: rgb(0, 117, 101);
+    cursor: pointer;
+    font-size: 60px;
+}
