@@ -1,0 +1,19 @@
+.container {
+    margin-bottom: 250px;
+}
+
+.inputs {
+    width: 150px;
+}
+
+.mes-input {
+    width: 400px;
+}
+
+.alert {
+    width: 400px;
+}
+
+.alert p {
+    color: black;
+}

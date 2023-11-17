@@ -10,7 +10,7 @@ export default function Footer() {
                     <h1 className='footer-title'>
                         Footer
                     </h1>
-                    <p>&copy; 2023 Your Company</p>
+                    <p>&copy; 2023 mottyMandel</p>
                 </div>
             </div>
         </div>
