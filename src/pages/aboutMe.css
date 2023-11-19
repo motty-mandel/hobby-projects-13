@@ -9,8 +9,8 @@
 }
 
 .img-con img {
-    max-height: 350px;
     max-width: 350px;
+    height: auto;
     border: 3px solid white;
 }
 

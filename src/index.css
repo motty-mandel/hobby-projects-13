@@ -48,3 +48,22 @@
     height: 75px;
 }
 
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query for screens with a minimum width of 601 pixels and a maximum of 900 pixels */
+  @media (min-width: 601px) and (max-width: 900px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Media query for screens with a minimum width of 901 pixels */
+  @media (min-width: 901px) {
+    body {
+      font-size: 20px;
+    }
+  }
