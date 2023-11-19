@@ -7,10 +7,9 @@ export default function Footer() {
         <div className="container">
             <div className="row">
                 <div className="col-12 custom-footer">
-                    <h1 className='footer-title'>
-                        Footer
-                    </h1>
-                    <p>&copy; 2023 mottyMandel</p>
+                    <h4 className='footer-title'>
+                        GitHub link
+                    </h4>
                 </div>
             </div>
         </div>

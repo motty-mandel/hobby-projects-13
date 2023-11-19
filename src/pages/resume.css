@@ -1,0 +1,16 @@
+.resume-container {
+    max-width: 1000px;
+}
+
+.row {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    height: 25vh;
+    padding: 25px;
+}
+
+.resume-text {
+    justify-content: center;
+    text-align: center;
+}
