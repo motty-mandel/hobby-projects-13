@@ -59,10 +59,17 @@ body {
   height: 100px;
 }
 
-.footer-title {
+.footer-title a {
   font-size: 25px;
   font-family: 'Courier New', monospace;
-  justify-content: space-between;
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-title a:hover {
+  color: rgb(0, 205, 255);
+
 }
 
 
@@ -73,6 +80,10 @@ body {
 
   .header-title {
     font-size: 30px;
+  }
+
+  .footer-title a {
+    display: block;
   }
 
   .navLinks {
