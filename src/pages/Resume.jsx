@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './resume.css';
+import '../index.css';
 
 const sections = [
     {

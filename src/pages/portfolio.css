@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+
 }
 
 .project-item {
@@ -14,7 +15,7 @@
     margin-bottom: 100px;
     border: 1px solid white;
     border-radius: 25px;
-    background-color: rgb(0, 41, 117);
+    background-color: rgb(2, 68, 189);   
 }
 
 .project-item h3 {
@@ -26,8 +27,9 @@
 
 .project-item img {
     width: 450px;
-    height: 300px;
+    height: auto;
     border-radius: 25%;
+
 }
 
 .project-item a {

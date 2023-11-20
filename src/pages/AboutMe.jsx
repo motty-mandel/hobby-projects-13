@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './aboutMe.css';
+import '../index.css';
 import myPhoto from '../images/coolCar.jpg'
 
 export default function AboutMe() {

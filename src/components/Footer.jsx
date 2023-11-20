@@ -8,7 +8,9 @@ export default function Footer() {
             <div className="row">
                 <div className="col-12 custom-footer">
                     <h4 className='footer-title'>
-                        GitHub link
+                        GitHub
+                        LinkedIn
+                        Instagram
                     </h4>
                 </div>
             </div>

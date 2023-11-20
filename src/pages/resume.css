@@ -3,10 +3,8 @@
 }
 
 .row {
-    margin-bottom: 30px;
     display: flex;
     align-items: center;
-    height: 25vh;
     padding: 25px;
 }
 

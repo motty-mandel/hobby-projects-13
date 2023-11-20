@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './portfolio.css';
+import '../index.css';
 import ogPortfolio from '../images/og-portfolio.png';
 import travelersGuide from '../images/travelers-guide.png';
 import studyGuide from '../images/study-guide.png';
@@ -14,30 +15,35 @@ export default function Portfolio() {
       name: "Original Portfolio",
       image: ogPortfolio,
       githubLink: "https://github.com/motty-mandel/hobby-projects-1",
+      deployed: "https://motty-mandel.github.io/hobby-projects-1/"
     },
     {
       id: 2,
       name: "Travelers Guide",
       image: travelersGuide,
       githubLink: "https://github.com/motty-mandel/travelers-guide",
+      deployed: "https://motty-mandel.github.io/Travelers-guide/",
     },
     {
       id: 3,
       name: "Study Guide",
       image: studyGuide,
       githubLink: "https://github.com/motty-mandel/pre-work-repo",
+      deployed: "https://motty-mandel.github.io/pre-work-repo/",
     },
     {
       id: 4,
       name: "Tech Quiz",
       image: techQuiz,
       githubLink: "https://github.com/motty-mandel/hobby-projects-3",
+      deployed: "https://motty-mandel.github.io/hobby-projects-3/",
     },
     {
       id: 5,
       name: "Weather App",
       image: weatherApp,
       githubLink: "https://github.com/motty-mandel/hobby-projects-5",
+      deployed: "https://motty-mandel.github.io/hobby-projects-5/",
     },
   ];
 
@@ -52,7 +58,7 @@ export default function Portfolio() {
               GitHub Link
             </a>
             <br />
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href={project.deployed} target="_blank" rel="noopener noreferrer">
               Deployed project
             </a>
           </p>
