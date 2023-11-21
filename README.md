@@ -24,15 +24,14 @@ npm start
 ```
 
 ## Description
-This project is a personal portfolio built using the REACT library
+This project is a personal portfolio built using the REACT library.
 
 ## Usage
-This text editor can be used as a plain text editor to read, write and study code. It can also be
-used for simple writing tasks such as writing notes or shopping lists etc.
+This proect can be used to decode and use as examples if needed.
 
 
 ## Credits
-Help and source code came from the Rutgers bootcamp TA's.
+Help and source code came from the Rutgers bootcamp TA's as well as ChatGPT.
 
 ## License
 Please reference the repo.
