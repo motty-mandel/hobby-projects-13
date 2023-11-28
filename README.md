@@ -1,7 +1,5 @@
 # Portfolio with REACT
 
-# Just Another Text Editor
-
 ## Table of contents
 [Instructions](#instructions),
 [Description](#description),
