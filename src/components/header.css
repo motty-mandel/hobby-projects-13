@@ -1,0 +1,40 @@
+.container-fluid {
+  padding-top: 12px;
+}
+
+.custom-header {
+    background: linear-gradient(to right, white, red);
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: none;
+  }
+  
+  .header-title {
+    font-size: 50px;
+    font-family: 'Courier New', monospace;
+    border: none;
+  }
+  
+  .header-title span {
+    color: red;
+  }
+  
+  .navLinks {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .navLinks li a {
+    font-family: 'Courier New', monospace;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    float: right;
+  }

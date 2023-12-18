@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../index.css';
+import './header.css';
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -8,7 +8,7 @@ export default function Header() {
             <div className="row">
                 <div className="col-12 custom-header">
                     <h1 className='header-title'>
-                        Motty Mandel
+                        <span>Motty</span> Mandel
                     </h1>
                     <ul className='navLinks'>
                         <li>

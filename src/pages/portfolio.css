@@ -13,9 +13,7 @@
     align-items: center;
     margin: 20px;
     margin-bottom: 100px;
-    border: 1px solid white;
     border-radius: 25px;
-    background-color: rgb(2, 68, 189);   
 }
 
 .project-item h3 {

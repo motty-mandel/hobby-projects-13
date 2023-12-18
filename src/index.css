@@ -4,74 +4,16 @@
   box-sizing: border-box;
 }
 
-body {
-  position: relative;
-  min-height: 100%;
-  padding-bottom: 6.74rem;
+.app-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container-fluid .row {
   padding: 0;
   margin: 0;
 }
-
-.custom-header {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)90%, rgb(0, 0, 0)), url('./images/leafCloseUp.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 150px;
-  color: white;
-  display: flex;
-  align-items: center;
-  border: none;
-}
-
-.header-title {
-  font-size: 50px;
-  font-family: 'Courier New', monospace;
-  border: none;
-}
-
-
-.navLinks {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  width: 50%;
-  margin: auto;
-}
-
-.navLinks li a {
-  font-family: 'Courier New', monospace;
-  text-decoration: none;
-  color: white;
-  font-size: large;
-  float: right;
-}
-
-.footer {
-  background-color: rgb(2, 168, 146);
-  color: white;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-}
-
-.footer-title a {
-  font-size: 25px;
-  font-family: 'Courier New', monospace;
-  margin: 0 20px;
-  text-decoration: none;
-  color: white;
-}
-
-.footer-title a:hover {
-  color: rgb(0, 205, 255);
-
-}
-
 
 @media (max-width: 600px) {
   body {

@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './aboutMe.css';
 import '../index.css';
-import myPhoto from '../images/coolCar.jpg'
+import myPhoto from '../images/motty-profile-pic.jpg'
 
 export default function AboutMe() {
     return (   
