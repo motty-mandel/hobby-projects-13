@@ -4,7 +4,9 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 50px 50px 0 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 100%;
 }
 
 .img-con img {
@@ -21,12 +23,5 @@
 }
 
 .bio-text h2 span {
-    color: black;
-    transition: ease-in-out 0.5s;
-}
-
-.bio-text h2 span:hover {
-    color: rgb(0, 117, 101);
-    cursor: pointer;
-    font-size: 60px;
+    color: rgb(255, 133, 133);
 }
