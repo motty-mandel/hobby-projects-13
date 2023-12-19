@@ -16,10 +16,6 @@
 }
 
 @media (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-
   .header-title {
     font-size: 30px;
   }
@@ -33,11 +29,6 @@
     flex-direction: column;
   }
 
-  .img-con img {
-    width: 100px;
-    height: auto;
-  }
-
   .project-item img {
     max-width: 100px;
   }
@@ -45,10 +36,6 @@
 
 
 @media (min-width: 601px) and (max-width: 900px) {
-  body {
-    font-size: 18px;
-  }
-
   .bio-text span {
     font-size: 18px;
     color: aqua;
@@ -65,11 +52,7 @@
   .navLinks {
     width: 100%;
     margin: auto;
-  }
-
-  .img-con img {
-    width: 200px;
-    height: auto;
+    flex-direction: column;
   }
 
   .project-item img {

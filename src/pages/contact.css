@@ -13,3 +13,9 @@
 .alert p {
     color: black;
 }
+
+@media (max-width: 400px){
+    .mes-input {
+        width: 300px;
+    }
+}

@@ -5,7 +5,7 @@ export default function Resume() {
     return (
         <div className="container">
             <div className="resume-row one">
-                <div className="col name">
+                <div className="col">
                     <h1>Motty Mandel</h1>
                     <h2>Front-end Developer</h2>
                 </div>

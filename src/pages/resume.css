@@ -33,3 +33,27 @@
 .four {
     margin-left: 400px;
 }
+
+@media (min-width: 100px) and (max-width: 900px) {
+    .one {
+        margin-left: 400px;
+    }
+    
+    .two {
+        margin-right: 400px;
+    }
+    
+    .three {
+        margin-left: 400px;
+    }
+    
+    .four {
+        margin-right: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .resume-row {
+        width: 300px;
+    }
+}
