@@ -4,29 +4,30 @@ import './resume.css';
 export default function Resume() {
     return (
         <div className="container">
-            <div className="row main">
-                <div className="col-md-6 name">
+            <div className="resume-row one">
+                <div className="col name">
                     <h1>Motty Mandel</h1>
                     <h2>Front-end Developer</h2>
                 </div>
-                <div className="col-md-6 experience">
-                    <h3>Experience</h3>
-                    <p>Software Developer at XYZ Corp</p>
-                    <p>Junior Developer at ABC Inc</p>
-                </div>
             </div>
-            <div className="row">
+            <div className="resume-row two">
                 <div className="col">
-                    <h3>Education</h3>
-                    <p>BSc in Computer Science, University of ABC</p>
+                    <h2>Experience</h2>
+                    <p>Building websites freelance</p>
                 </div>
             </div>
-            <div className="row">
+            <div className="resume-row three">
                 <div className="col">
-                    <h3>Skills</h3>
-                    <p>JavaScript, React, Node.js</p>
+                    <h2>Education</h2>
+                    <p>Rutgers Full-Stack Web Development Bootcamp</p>
                 </div>
             </div>
-      </div>
+            <div className="resume-row four">
+                <div className="col">
+                    <h2>Skills</h2>
+                    <p>JavaScript, React, Node.js, HTML5, MongoDB, Express</p>
+                </div>
+            </div>
+        </div>
     );
 }

@@ -17,12 +17,12 @@ export default function AboutMe() {
         <div className="col-md-8 bio-text">
           <h2>Hi, my name is <span>Motty Mandel</span></h2>
           <p>
-            I am an enthusiastic and hardworking Full Stack Web Developer,
+            I am an <span>enthusiastic and hardworking</span> Full Stack Web Developer,
             with a passion for learning and a love for problem solving. I
-            recently graduated from Rutgers Coding Bootcamp, where I learned
+            recently graduated from <span>Rutgers Coding Bootcamp</span>, where I learned
             the fundamentals of web development and how to work with a team.
-            I enjoy the outdoors and spending time with my family. I am
-            looking forward to applying my skills and learning new ones in a
+            I enjoy the outdoors and spending time with my family. <span>I am
+            looking forward</span> to applying my skills and learning new ones in a
             professional environment.
           </p>
         </div>

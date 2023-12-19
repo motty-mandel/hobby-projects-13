@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.resume-row {
+    width: 400px;
+    margin: 50px 0;
+    border-bottom: 2px solid #ff4b4b;
+    border-right: 2px solid #ff4b4b;    
+}
+
+.resume-row p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.one {
+    margin-right: 400px;
+}
+
+.two {
+    margin-left: 400px;
+}
+
+.three {
+    margin-right: 400px;
+}
+
+.four {
+    margin-left: 400px;
+}

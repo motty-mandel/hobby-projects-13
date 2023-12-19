@@ -38,3 +38,7 @@
     font-size: large;
     float: right;
   }
+
+  .custom-header ul {
+    margin-right: 40px;
+  }
