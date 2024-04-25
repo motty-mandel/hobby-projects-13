@@ -36,7 +36,7 @@ export default function Portfolio() {
       name: "Tech Quiz",
       image: techQuiz,
       githubLink: "https://github.com/motty-mandel/hobby-projects-3",
-      deployed: "https://motty-mandel.github.io/hobby-projects-3/",
+      deployed: "https://motty-mandel.github.io/JavaScript-Quiz/",
     },
     {
       id: 5,
